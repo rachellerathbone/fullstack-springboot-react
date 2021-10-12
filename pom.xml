@@ -8,11 +8,11 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.springboot</groupId>
+	<artifactId>fullstack</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>fullstack</name>
+	<description>Fullstack React SpingBoot</description>
 	<properties>
 		<java.version>15</java.version>
 		<app.image.name>springboot-react-fullstack</app.image.name>
@@ -108,7 +108,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>docker.io/amigoscode/${app.image.name}:${app.image.tag}</image>
+										<image>docker.io/rachellerathbone/${app.image.name}:${app.image.tag}</image>
 									</to>
 								</configuration>
 								<goals>
@@ -120,7 +120,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>docker.io/amigoscode/${app.image.name}:latest</image>
+										<image>docker.io/rachellerathbone/${app.image.name}:latest</image>
 									</to>
 								</configuration>
 								<goals>
@@ -160,7 +160,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>amigoscode/${app.image.name}:${app.image.tag}</image>
+										<image>rachellerathbone/${app.image.name}:${app.image.tag}</image>
 									</to>
 								</configuration>
 								<goals>
@@ -172,7 +172,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>amigoscode/${app.image.name}:latest</image>
+										<image>rachellerathbone/${app.image.name}:latest</image>
 									</to>
 								</configuration>
 								<goals>
